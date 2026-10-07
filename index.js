@@ -20,7 +20,7 @@ if(args.a || args.allow) {
 // Init
 main({
 	port: 3000,
-	workers: 4,
+	workers: 8,
 	ssl: false,
 	key: "./default.key",
 	cert: "./default.crt",
